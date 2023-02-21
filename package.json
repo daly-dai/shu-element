@@ -5,6 +5,7 @@
     "build": "max build",
     "dev": "max dev",
     "format": "prettier --cache --write .",
+    "preinstall": "npx only-allow pnpm",
     "postinstall": "max setup",
     "prepare": "husky install",
     "setup": "max setup",
